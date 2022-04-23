@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+/*header*/
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+header div{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: #222222;
+    font-size: 1rem;
+    align-items: center;
+    padding: 1px 0px;
+}
+header div span{
+    padding-left: 40px;
+}
+header div.idioma{
+    padding-right: 30px;
+    gap: 5px;
+}
+
+div.idioma a{
+    color: white;
+    text-decoration: none;
+}
+.navbar img{
+    padding-left: 40px;
+}
+
+
+.navbar{
+    background-color: #F0A83E;
+    padding: 10px 0px;
+    color: white;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+}
+.navbar nav img{
+    display: none;
+}
+
+header nav ul{
+    display: flex;
+    list-style-type: none;
+    padding-right: 10px;
+    padding-right: 30px;
+    gap: 15px;
+}
+
+/*main sec bowl*/
+
+section.bowl img{
+    width: 100vw;
+
+}
+section.bowl{
+    position: relative;
+}
+
+.bowl div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    right: 5%;
+    bottom: 45%;
+    gap: 10px;
+}
+
+span.placer{
+    font-size: 2rem;
+    color: #3C2313;
+    background-color: white;
+}
+span.descuento{
+    font-size: 1rem;
+    color: #3C2313;
+    background-color: white;
+    padding: 1px;
+}
+span.comedero{
+    font-size: 1rem;
+    color: white;
+    background-color: #F0A83E;
+    padding: 5px;
+}
+
+/*main sec productos*/
+
+article.patita{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+article.patita img{
+    padding: 10px;
+}
+article.patita h2{
+    color: #3C2313;
+    font-size: 2rem;
+    padding: 5px;
+}
+article.patita div{
+    font-size: 1rem;
+}
+article.patita div span{
+    padding: 0px 23px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 800px){
+    section.bowl div{
+        position: absolute;
+        bottom: 20%;
+    }
+    header nav ul{
+        display: none;
+    }
+    .navbar nav img{
+        display: inline-block
+    }
+    header span, header div.ofertas{
+        display: none;
+    }
+}
