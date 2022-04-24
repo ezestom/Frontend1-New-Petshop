@@ -116,7 +116,41 @@ article.patita div{
     font-size: 1rem;
 }
 article.patita div span{
-    padding: 0px 23px;
+    padding: 0px 20
+    px;
+}
+
+/*main sec 3imagenes*/
+
+article.card{
+    width: 265px;
+    height: 312px;
+    background-color: #FBFAF6;
+
+}
+article.card h6{
+    text-align: center;
+    color: #3C2313;
+    font-size: 1rem;
+}
+article.card p{
+    text-align: center;
+    color: #F0A83E;
+    font-size: 1rem;
+}
+section.cards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10%;
+}
+
+/*main sec contactanos*/
+
+section.contactanos h3{
+    font-size: 2rem;
+    color: #3C2313;
+    text-align: center;
 }
 
 
@@ -148,5 +182,11 @@ article.patita div span{
     }
     header span, header div.ofertas{
         display: none;
+    }
+    span.placer{
+        font-size: 1.5rem;
+    }
+    .navbar{
+        padding: 10px 10px;
     }
 }
