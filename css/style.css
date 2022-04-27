@@ -1,6 +1,7 @@
 *{
     margin: 0;
     box-sizing: border-box;
+    /* border: solid red 1px; */
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
@@ -61,7 +62,7 @@ header nav ul{
 /*main sec bowl*/
 
 section.bowl img{
-    width: 100vw;
+    width: 100%;
 
 }
 section.bowl{
@@ -98,6 +99,9 @@ span.comedero{
 
 /*main sec productos*/
 
+section.productos{
+    padding-top: 5%;
+}
 article.patita{
     display: flex;
     justify-content: center;
@@ -123,9 +127,13 @@ article.patita div span{
 /*main sec 3imagenes*/
 
 article.card{
-    width: 265px;
-    height: 312px;
+    width: 325px;
+    height: 375px;
     background-color: #FBFAF6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
 }
 article.card h6{
@@ -147,11 +155,104 @@ section.cards{
 
 /*main sec contactanos*/
 
+section.contactanos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F0A83E;
+}
+
 section.contactanos h3{
     font-size: 2rem;
     color: #3C2313;
     text-align: center;
+    padding-bottom: 2%;
 }
+
+/* sec formularios*/
+label{
+    font-family: 'roboto';
+}
+
+input{
+    background-color: #FBFAF6;
+    width: 250px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 25PX;
+    align-items: center;
+    border: none;
+
+}
+
+div form input.botones{
+    width: 125px;
+    background-color: #3C2313;
+    font-family: 'roboto';
+    color: #FBFAF6;
+    margin: 10px;          
+}
+
+/*sec sucribite*/
+
+section.suscribite{
+    background-color: #3C2313;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    color: white;
+    font-size: 1.5rem;
+    border: #F0A83E 1px solid;
+
+}
+
+.suscribite div.carta{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding-left: 2%;
+
+}
+.suscribite div.formulario{
+    display: flex;
+    gap: 10px;
+    padding: 1% 2% 1% 0%;  
+    
+}
+
+#suscribite{
+    width: 125px; 
+}
+
+/*sec localidad*/
+section.localidad{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3C2313;
+    padding:0% 2% ;
+    color: white;
+}
+
+section.localidad article>div{
+    display: flex;
+    padding: 5%0%;
+}
+/*footer*/
+
+footer{
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+}
+
+
+    
+
 
 
 
