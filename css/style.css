@@ -205,7 +205,6 @@ section.suscribite{
     flex-wrap: wrap;
     color: white;
     font-size: 1.5rem;
-    border: #F0A83E 1px solid;
 
 }
 
@@ -244,7 +243,7 @@ section.localidad article>div{
 /*footer*/
 
 footer{
-    background-color: black;
+    background-color: #222222;
     color: white;
     font-size: 1rem;
     text-align: center;
